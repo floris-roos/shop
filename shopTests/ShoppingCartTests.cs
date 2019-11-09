@@ -41,5 +41,22 @@ namespace shop.Tests
             // Assert
             Assert.AreEqual(true, heeftFysiek);
         }
+
+        [TestMethod()]
+        public void AddNewItem_WhenAllreadyPresent_AdditionOfQuantity()
+        {
+            // Arrange
+            Sale testSale = new Sale();
+            Product fysiek = new PhysicalProduct("fiets", 9.99f, "dit is een fietsje", new Tuple<float, float, float>(1, 2, 3), 7);
+
+            // Act
+            testSale.AddItem(fysiek, "1");
+            var een = testSale.GetQuantity();
+            testSale.AddItem(fysiek, "3");
+            var twee = testSale.GetQuantity();
+
+            // Assert
+            Assert.AreEqual(een + 3, twee);
+        }
     }
 }
