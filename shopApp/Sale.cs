@@ -83,6 +83,7 @@ namespace shop
             if (cart.containsPhysicalProduct)
                 new CompanyEmail(cart, customer);
         }
+
         public void AddItem(Product product, string quantity)
         {
             if (!int.TryParse(quantity, out int x))
@@ -101,8 +102,7 @@ namespace shop
 
         public void Cancel()
         {
-            cart.items.Clear();
-            cart.containsPhysicalProduct = false;
+            cart.Cancel();
         }
 
         public bool ContainsPhysical()

@@ -58,5 +58,12 @@ namespace shop
             if (!added)
                 items.Add(new CartItem(product, amount));
         }
+
+        public void Cancel()
+        {
+            items.Clear();
+            containsPhysicalProduct = false;
+            shippingFee = 0;
+        }
     }
 }
