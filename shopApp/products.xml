@@ -1,0 +1,12 @@
+<products>
+	<physical title="Bicycle Race" price="78" description="I want to ride my bicycle, I want to ride it where I like. (physical)" length="132" width="18" height="73" weight="13"/>
+	<physical title="Beautiful Girls" price="7" description="Damn all these beautiful girls. They only wanna do your dirt. (physical)" length="40" width="50" height="180" weight="65"/>
+	<digital title="Respect" price="67" description="Respect, just a little bit. Or you might walk in and find out I'm gone. (digital)" downloadLink="https://www.youtube.com/watch?v=6FOUqQt3Kg0"/>
+	<physical title="Rubber Duckie" price="87" description="Rubber Duckie, you're so fine and I'm lucky that you're mine. (physical)" length="20" width="20" height="20" weight="1"/>
+	<digital title="God" price="70" description="God is a concept, by which we measure our pain. (digital)" downloadLink="https://www.youtube.com/watch?v=oCLsa98D7iU"/>
+	<physical title="Lemon Tree" price="94" description="And all that I can see is just a yellow lemon tree. (physical)" length="5" width="5" height="5" weight="1"/>
+	<digital title="Can't touch this" price="90" description="Why you standing there man, u can't touch this. (digital)" downloadLink="https://www.youtube.com/watch?v=otCpCn0l4Wo"/>
+	<physical title="Umbrella" price="09" description="We'll still have each other. You can stand under my umbrella. (physical)" length="10" width="10" height="100" weight="2"/>	
+	
+	<digital title="99 problems" price="2003" description="I got ninety nine problems, but a bitch ain't one (digital)" downloadLink="https://www.youtube.com/watch?v=6uikJTnmtgw"/>	
+</products>
